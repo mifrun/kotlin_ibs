@@ -20,7 +20,7 @@ fun task_two() {
     println("$one $two")
 }
 
-fun tasl_three() {
+fun task_three() {
 //    Задание №3
     var five: Char = '5'
     println(five.toString())
