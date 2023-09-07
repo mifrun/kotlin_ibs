@@ -1,8 +1,8 @@
 fun main(args: Array<String>) {
-//    task_one()
-//    task_two()
+    task_one()
+    task_two()
     task_three()
-//    task_four()
+    task_four()
 }
 
 fun task_one() {
@@ -36,6 +36,6 @@ fun task_three() {
 fun task_four() {
 //    Задание №4
     println("Введите ваше имя:")
-    var your_name = readLine()
-    println("Привет, $your_name")
+    var yourName: String? = readlnOrNull()
+    println("Привет, $yourName")
 }
