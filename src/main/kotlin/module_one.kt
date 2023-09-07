@@ -3,6 +3,7 @@ fun main(args: Array<String>) {
     task_two()
     task_three()
     task_four()
+    task_five()
 }
 
 fun task_one() {
@@ -35,7 +36,12 @@ fun task_three() {
 
 fun task_four() {
 //    Задание №4
-    println("Введите ваше имя:")
+    print("Введите ваше имя:")
     var yourName: String? = readlnOrNull()
     println("Привет, $yourName")
+}
+
+fun task_five() {
+//    Задание №5
+    val alphabet = 'z' downTo 'a'
 }
