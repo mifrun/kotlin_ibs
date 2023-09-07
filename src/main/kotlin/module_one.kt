@@ -1,13 +1,13 @@
 fun main(args: Array<String>) {
-    task_one()
-}
-
-fun task_one() {
+//  Задание №1
     var one: Any? = null
     one = 6
     var three = one / 2.5
-//    в переменной "Three" тип Double
-    println(three)
+    //в переменной "Three" тип Double
+
+//    Задание №2
+    var one = "hello"
+    var two = "aplana"
+    println("$one $two")
 }
 
-fun task_two
