@@ -1,9 +1,10 @@
 fun main(args: Array<String>) {
-    task_one()
-    task_two()
-    task_three()
-    task_four()
-    task_five()
+//    task_one()
+//    task_two()
+//    task_three()
+//    task_four()
+//    task_five()
+    task_six()
 }
 
 fun task_one() {
@@ -44,4 +45,14 @@ fun task_four() {
 fun task_five() {
 //    Задание №5
     val alphabet = 'z' downTo 'a'
+}
+
+fun task_six() {
+    print("Введите значение A:")
+    val aString = readlnOrNull()
+    print("Введите значение B:")
+    val bString = readlnOrNull()
+    var a: Int = aString.toString().toInt()
+    var b: Int = bString.toString().toInt()
+    println("a > b = ${a > b}")
 }
