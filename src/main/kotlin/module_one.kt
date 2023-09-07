@@ -9,5 +9,15 @@ fun main(args: Array<String>) {
     var one = "hello"
     var two = "aplana"
     println("$one $two")
+
+//    Задание №3
+    var five: Char = '5'
+    println(five.toString())
+    println(five.code.toByte())
+    println(five.code.toShort())
+    println(five.code)
+    println(five.code.toDouble())
+    println(five.code.toFloat())
+    println(five.code.toLong())
 }
 
