@@ -1,9 +1,9 @@
 fun main(args: Array<String>) {
-//    task_one()
-//    task_two()
-//    task_three()
-//    task_four()
-//    task_five()
+    task_one()
+    task_two()
+    task_three()
+    task_four()
+    task_five()
     task_six()
 }
 
