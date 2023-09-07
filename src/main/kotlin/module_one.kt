@@ -1,7 +1,8 @@
 fun main(args: Array<String>) {
-    task_one()
-    task_two()
+//    task_one()
+//    task_two()
     task_three()
+//    task_four()
 }
 
 fun task_one() {
@@ -24,10 +25,17 @@ fun task_three() {
 //    Задание №3
     var five: Char = '5'
     println(five.toString())
-    println(five.code.toByte())
-    println(five.code.toShort())
-    println(five.code)
-    println(five.code.toDouble())
-    println(five.code.toFloat())
-    println(five.code.toLong())
+    println(five.toString().toByte())
+    println(five.toString().toShort())
+    println(five.toString().toInt())
+    println(five.toString().toDouble())
+    println(five.toString().toFloat())
+    println(five.toString().toLong())
+}
+
+fun task_four() {
+//    Задание №4
+    println("Введите ваше имя:")
+    var your_name = readLine()
+    println("Привет, $your_name")
 }
